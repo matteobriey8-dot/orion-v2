@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { PageHeader, Button, Chips, Textarea, ResultBox } from '../../components/ui/index.jsx';
-import { useAI, useChat } from '../../hooks/useAI';
-import { MessageBubble, TypingIndicator } from '../../components/chat/MessageBubble';
-import ChatInput from '../../components/chat/ChatInput';
-import '../../styles/chat.css';
+import { PageHeader, Button, Chips, Textarea, ResultBox } from 'components/ui/index.jsx';
+import { useAI, useChat } from 'hooks/useAI';
+import { MessageBubble, TypingIndicator } from 'components/chat/MessageBubble';
+import ChatInput from 'components/chat/ChatInput';
+import 'styles/chat.css';
 
 // ── COACH IA ──────────────────────────────────────────────────────────────────
 const COACH_MODES = [

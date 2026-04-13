@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { PageHeader, Button, Chips, Textarea, ResultBox } from '../../components/ui/index.jsx';
-import { useAI } from '../../hooks/useAI';
+import { PageHeader, Button, Chips, Textarea, ResultBox } from 'components/ui/index.jsx';
+import { useAI } from 'hooks/useAI';
 
 function useLocal(key, init) {
   const [v, setV] = useState(() => { try { return JSON.parse(localStorage.getItem(key)) ?? init; } catch { return init; } });

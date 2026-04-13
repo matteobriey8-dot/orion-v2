@@ -64,7 +64,7 @@
 | `ALLOWED_ORIGINS` | `*` (tu changeras après) |
 
 5. **Create Web Service** → attends 2-3 min
-6. Note l'URL : `https://orion-server-xxxx.onrender.com`
+6. Note l'URL : `https://orion-server-h6fg.onrender.com`
 
 ---
 
@@ -81,7 +81,7 @@
 
 | Clé | Valeur |
 |-----|--------|
-| `REACT_APP_API_URL` | `https://orion-server-xxxx.onrender.com/api` |
+| `REACT_APP_API_URL` | `https://orion-server-h6fg.onrender.com/api` |
 
 5. **Redirects/Rewrites** → Add rule :
    - Source : `/*`

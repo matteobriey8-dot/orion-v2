@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { PageHeader, Button, Chips, Textarea, ResultBox } from '../../components/ui/index.jsx';
-import { useAI } from '../../hooks/useAI';
+import { PageHeader, Button, Chips, Textarea, ResultBox } from 'components/ui/index.jsx';
+import { useAI } from 'hooks/useAI';
 
 // ── HUB ───────────────────────────────────────────────────────────────────────
 const TOOLS = [

@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from 'context/AuthContext';
 
 const QUICK_ACTIONS = [
   { icon: '💬', label: 'Chat IA',       path: '/chat',           color: 'var(--accent)' },

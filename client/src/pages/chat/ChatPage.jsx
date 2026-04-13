@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
-import { MessageBubble, TypingIndicator } from '../../components/chat/MessageBubble';
-import ChatInput from '../../components/chat/ChatInput';
-import api from '../../utils/api';
-import '../../styles/chat.css';
+import { MessageBubble, TypingIndicator } from 'components/chat/MessageBubble';
+import ChatInput from 'components/chat/ChatInput';
+import api from 'utils/api';
+import 'styles/chat.css';
 
 const SUGGESTIONS = [
   { icon: '📅', text: 'Organise ma journée de demain' },

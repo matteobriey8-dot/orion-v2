@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { PageHeader, Button, EmptyState, ProgressBar, ResultBox } from '../../components/ui/index.jsx';
-import { useAI } from '../../hooks/useAI';
-import '../../styles/tools.css';
+import { PageHeader, Button, EmptyState, ProgressBar, ResultBox } from 'components/ui/index.jsx';
+import { useAI } from 'hooks/useAI';
+import 'styles/tools.css';
 
 // ── Données locales (localStorage) ───────────────────────────────────────────
 function useLocalStorage(key, initial) {
